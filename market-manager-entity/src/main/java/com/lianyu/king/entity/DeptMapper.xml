@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lianyu.king.entity.DeptMapper" >
+  <resultMap id="BaseResultMap" type="com.lianyu.king.entity.Dept" >
+    <id column="dept_id" property="dept_id" jdbcType="INTEGER" />
+    <result column="dept_name" property="dept_name" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    dept_id, dept_name
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_dept
+    where dept_id = #{dept_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tbl_dept
+    where dept_id = #{dept_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.lianyu.king.entity.Dept" >
+    insert into tbl_dept (dept_id, dept_name)
+    values (#{dept_id,jdbcType=INTEGER}, #{dept_name,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.lianyu.king.entity.Dept" >
+    insert into tbl_dept
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="dept_id != null" >
+        dept_id,
+      </if>
+      <if test="dept_name != null" >
+        dept_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="dept_id != null" >
+        #{dept_id,jdbcType=INTEGER},
+      </if>
+      <if test="dept_name != null" >
+        #{dept_name,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lianyu.king.entity.Dept" >
+    update tbl_dept
+    <set >
+      <if test="dept_name != null" >
+        dept_name = #{dept_name,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where dept_id = #{dept_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lianyu.king.entity.Dept" >
+    update tbl_dept
+    set dept_name = #{dept_name,jdbcType=VARCHAR}
+    where dept_id = #{dept_id,jdbcType=INTEGER}
+  </update>
+</mapper>

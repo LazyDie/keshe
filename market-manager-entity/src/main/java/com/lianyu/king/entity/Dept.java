@@ -1,23 +1,25 @@
 package com.lianyu.king.entity;
 
 public class Dept {
-    private Integer dept_id;
+    private Integer deptId;
 
-    private String dept_name;
+    private String deptName;
 
-    public Integer getDept_id() {
-        return dept_id;
+    public Integer getDeptId() {
+        return deptId;
     }
 
-    public void setDept_id(Integer dept_id) {
-        this.dept_id = dept_id;
+    public void setDeptId(Integer deptId) {
+        this.deptId = deptId;
     }
 
-    public String getDept_name() {
-        return dept_name;
+    public String getDeptName() {
+        return deptName;
     }
 
-    public void setDept_name(String dept_name) {
-        this.dept_name = dept_name == null ? null : dept_name.trim();
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
     }
+
+
 }

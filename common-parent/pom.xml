@@ -14,9 +14,58 @@
   <name>common-parent</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mvn.saas.version>${project.version}</mvn.saas.version>
+		<mvn.cxf.version>3.1.7</mvn.cxf.version>
+		<mvn.spring-ws-core.version>2.3.0.RELEASE</mvn.spring-ws-core.version>
+		<mvn.spring.version>4.2.0.RELEASE</mvn.spring.version>
+		<mvn.spring-data-commons.version>1.11.0.RELEASE</mvn.spring-data-commons.version>
+		<mvn.quartz.version>2.2.2</mvn.quartz.version>
+		<mvn.kvclient.version>2.1.57.RELEASE</mvn.kvclient.version>
+		<mvn.jersey.version>2.10.1</mvn.jersey.version>
+		<mvn.jackson.version>2.5.4</mvn.jackson.version>
+		<mvn.jaxb-api.version>2.2.9</mvn.jaxb-api.version>
+		<mvn.nacha.version>1.0.1</mvn.nacha.version>
+		<mvn.junit.version>4.11</mvn.junit.version>
+		<mvn.gson.version>2.3.1</mvn.gson.version>
+		<mvn.commons-configuration.version>1.10</mvn.commons-configuration.version>
+		<mvn.commons-lang3.version>3.3.2</mvn.commons-lang3.version>
+		<mvn.commons-beanutils.version>1.9.2</mvn.commons-beanutils.version>
+		<mvn.commons-fileupload.version>1.3.1</mvn.commons-fileupload.version>
+		<mvn.perf4j.version>0.9.16</mvn.perf4j.version>
+		<mvn.slf4j.version>1.7.7</mvn.slf4j.version>
+		<mvn.logback.version>1.1.2</mvn.logback.version>
+		<mvn.servlet-api.version>3.0.1</mvn.servlet-api.version>
+		<mvn.jsp-api.version>2.1</mvn.jsp-api.version>
+		<mvn.jstl.version>1.2</mvn.jstl.version>
+		<mvn.httpclient.version>4.4.1</mvn.httpclient.version>
+		<mvn.httpcore.version>4.4.1</mvn.httpcore.version>
+		<mvn.httpmime.version>4.4.1</mvn.httpmime.version>
+		<mvn.cors-filter.version>2.1.2</mvn.cors-filter.version>
+		<mvn.kaptcha.version>0.0.9</mvn.kaptcha.version>
+		<mvn.ant.version>1.8.4</mvn.ant.version>
+		<mvn.jxls-core.version>1.0.5</mvn.jxls-core.version>
+		<mvn.jxls-reader.version>1.0.5</mvn.jxls-reader.version>
+		<mvn.junrar.version>0.7</mvn.junrar.version>
+		<mvn.commons-io.version>1.3.2</mvn.commons-io.version>
+		<mvn.xstream.version>1.3.1</mvn.xstream.version>
+		<mvn.spring-data-mongodb.version>1.8.0.RELEASE</mvn.spring-data-mongodb.version>
+		<mvn.jackson-mapper-asl.version>1.9.12</mvn.jackson-mapper-asl.version>
+		<mvn.jackson-annotations.version>2.5.0</mvn.jackson-annotations.version>
+		<mvn.ehcache.version>2.10.0</mvn.ehcache.version>
+		<mvn.dom4j.version>1.6.1</mvn.dom4j.version>
+		<mvn.jaxen.version>1.1.4</mvn.jaxen.version>
+		<mvn.commons-email.version>1.3.2</mvn.commons-email.version>
+		<mvn.velocity.version>1.7</mvn.velocity.version>
+		<mvn.velocity-tools.version>2.0</mvn.velocity-tools.version>
+		<mvn.alipay.version>1.0</mvn.alipay.version>
+		<mvn.cfca.version>1.0</mvn.cfca.version>
+		<mvn.bcprov.version>1.0</mvn.bcprov.version>
+		<mvn.json-lib.version>2.4</mvn.json-lib.version>
+		<mvn.commons-net.version>3.4</mvn.commons-net.version>
+		<mvn.pinyin4j.version>2.5.1</mvn.pinyin4j.version>
+	</properties>
 
   <dependencies>
     <dependency>

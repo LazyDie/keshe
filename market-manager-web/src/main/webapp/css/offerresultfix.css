@@ -1,0 +1,63 @@
+.sw-layout-1390 .sw-offer-220 .sm-offer {
+	width: 1401px;
+	margin-left: -10px
+}
+
+.sw-layout-1390 .sw-offer-220 .sm-offer-item {
+	margin-left: 11px
+}
+
+.sw-layout-1190 .sw-offer-220 .sm-offer {
+	width: 1210px
+}
+
+.sw-layout-990 .sw-offer-220 .sm-offer {
+	width: 1024px
+}
+
+.sm-offer .sm-offer-dealInfo {
+	width: 100%;
+	height: 46px;
+	_margin-left: -1px;
+	border-bottom: 1px solid #efefef;
+	overflow: hidden;
+	visibility: visible;
+	opacity: 1
+}
+
+.sw-dpl-offer-price {
+	height: 31px;
+	line-height: 20px;
+	margin-top: 15px
+}
+
+.sm-offer .sm-offer-dealInfo {
+	width: 100%;
+	height: 45px;
+	_margin-left: -1px;
+	border-bottom: 1px solid #efefef;
+	overflow: hidden
+}
+
+.title-overlay {
+	display: block;
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	bottom: 0;
+	line-height: 18px;
+	color: #fff;
+	text-align: left;
+	background: rgba(80, 156, 30, .8);
+	height: 38px;
+	width: 210px;
+	padding: 1px 5px 1px 5px
+}
+
+.title-overlay a {
+	color: #fff
+}
+
+.hover .title-overlay {
+	visibility: visible
+}

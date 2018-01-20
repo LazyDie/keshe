@@ -1,0 +1,135 @@
+.sm-navcategory {
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+	background: #ff7300;
+	z-index: 2;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s
+}
+
+.sm-navcategory .smw-list {
+	width: 1148px;
+	overflow: hidden
+}
+
+.sm-navcategory .smw-list a {
+	float: left;
+	display: inline;
+	height: 20px;
+	padding: 10px 16px;
+	background: #ff7300;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s
+}
+
+.sm-navcategory .smw-list a:link, .sm-navcategory .smw-list a:visited {
+	color: #fff
+}
+
+.sm-navcategory .smw-list a:hover {
+	background: #ff6000;
+	color: #fff;
+	text-decoration: none
+}
+
+.sm-navcategory .smw-list .smw-checked {
+	background: #ff6000
+}
+
+.sm-navcategory .smw-switch {
+	position: absolute;
+	right: 9px;
+	top: 9px
+}
+
+.sm-navcategory .sw-dpl-sn-switch {
+	background: #ff7300;
+	border-color: #fff
+}
+
+.sm-navcategory .sw-dpl-sn-switch .sw-dpl-arrow-b {
+	float: left;
+	display: inline;
+	margin: 8px 4px 6px
+}
+
+.sm-navcategory .sw-dpl-sn-switch .sw-dpl-arrow-b i {
+	border-top-color: #fff
+}
+
+.sm-navcategory .sw-dpl-sn-switch .sw-dpl-arrow-b em {
+	border-top-color: #ff7300
+}
+
+.sm-navcategory-showmore {
+	height: auto;
+	background: #fff;
+	border: solid 1px #ff7300
+}
+
+.sm-navcategory-showmore .smw-list {
+	width: 1148px;
+	padding: 5px 0
+}
+
+.sm-navcategory-showmore .smw-list a {
+	padding: 5px 15px
+}
+
+.sm-navcategory-showmore .smw-list a:link, .sm-navcategory-showmore .smw-list a:visited
+	{
+	background: #fff;
+	color: #555
+}
+
+.sm-navcategory-showmore .smw-list a:hover {
+	background: #fff;
+	color: #ff7300
+}
+
+.sm-navcategory-showmore .smw-switch {
+	right: 8px;
+	top: 8px
+}
+
+.sm-navcategory-showmore .smw-switch .sw-dpl-sn-switch {
+	background: #fff;
+	border-color: #b3b3b3;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=1.2246467991473532e-16, M21=-1.2246467991473532e-16, M22=-1, SizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=0, M21=0,
+		M22=-1, SizingMethod='auto expand')
+}
+
+.sm-navcategory-showmore .sw-dpl-sn-switch .sw-dpl-arrow-b i {
+	border-top-color: #b3b3b3
+}
+
+.sm-navcategory-showmore .sw-dpl-sn-switch .sw-dpl-arrow-b em {
+	border-top-color: #fff
+}
+
+.sw-layout-990 .sm-navcategory .smw-list {
+	width: 948px
+}
+
+.sw-layout-990 .sm-navcategory-showmore .smw-list {
+	width: 948px
+}
+
+.sw-layout-1390 .sm-navcategory .smw-list {
+	width: 1348px
+}
+
+.sw-layout-1390 .sm-navcategory-showmore .smw-list {
+	width: 1348px
+}

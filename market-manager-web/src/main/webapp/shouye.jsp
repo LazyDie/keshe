@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>大型批发市场管理系统</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="layui/css/layui.css">
     <style>
@@ -17,7 +17,7 @@
         <div class="w">
             <div class="top_left">
                 <div class="top_left_1">
-                    <a href="#" class="top_left_1_a">淘宝</a>
+                    <a href="contents/bootstrap.jsp" class="top_left_1_a">淘宝</a>
                     <span class="top_left_1_span"></span>
                 </div>
                 <div class="top_left_2">
@@ -77,7 +77,7 @@
 
                 </div>
                 <div class="head_main_search_a">
-                    <a href="#" class="head_main_search_a">高级搜索</a>
+                    <a href="contents/chaxun.jsp" class="head_main_search_a">高级搜索</a>
                 </div>
                 <div class="head_main_search_down">
                     <a href="#">女士凉鞋</a>

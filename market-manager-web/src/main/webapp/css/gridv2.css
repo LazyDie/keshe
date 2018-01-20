@@ -1,0 +1,179 @@
+.sw-layout-990, .sw-layout-1190, .sw-layout-1390, .sw-layout-1000,
+	.sw-layout-1200, .sw-layout-1400 {
+	position: relative
+}
+
+.sw-layout-990 .sw-layout-box, .sw-layout-1190 .sw-layout-box,
+	.sw-layout-1390 .sw-layout-box, .sw-layout-1000 .sw-layout-box,
+	.sw-layout-1200 .sw-layout-box, .sw-layout-1400 .sw-layout-box {
+	padding: 0 5px;
+	margin: 0 auto;
+	zoom: 1
+}
+
+.sw-layout-990 .sw-layout-box:after, .sw-layout-1190 .sw-layout-box:after,
+	.sw-layout-1390 .sw-layout-box:after, .sw-layout-1000 .sw-layout-box:after,
+	.sw-layout-1200 .sw-layout-box:after, .sw-layout-1400 .sw-layout-box:after
+	{
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: " ";
+	font-size: 0
+}
+
+.sw-layout-990 .sw-layout-block, .sw-layout-1190 .sw-layout-block,
+	.sw-layout-1390 .sw-layout-block, .sw-layout-1000 .sw-layout-block,
+	.sw-layout-1200 .sw-layout-block, .sw-layout-1400 .sw-layout-block,
+	.sw-layout-990 .sw-layout-main, .sw-layout-1190 .sw-layout-main,
+	.sw-layout-1390 .sw-layout-main, .sw-layout-1000 .sw-layout-main,
+	.sw-layout-1200 .sw-layout-main, .sw-layout-1400 .sw-layout-main,
+	.sw-layout-990 .sw-layout-side, .sw-layout-1190 .sw-layout-side,
+	.sw-layout-1390 .sw-layout-side, .sw-layout-1000 .sw-layout-side,
+	.sw-layout-1200 .sw-layout-side, .sw-layout-1400 .sw-layout-side {
+	float: left;
+	display: inline
+}
+
+.sw-layout-990 .sw-layout-box {
+	width: 990px;
+	min-width: 990px
+}
+
+.sw-layout-990 .sw-layout-block {
+	width: 990px
+}
+
+.sw-layout-990 .sw-layout-main, .sw-layout-990 .sw-offer-220 .sw-layout-main,
+	.sw-layout-990 .sw-offer-270 .sw-layout-main {
+	width: 734px;
+	margin-left: 34px
+}
+
+.sw-layout-990 .sw-layout-side, .sw-layout-990 .sw-offer-220 .sw-layout-side,
+	.sw-layout-990 .sw-offer-270 .sw-layout-side {
+	width: 222px;
+	margin-left: 34px
+}
+
+.sw-layout-990 #alibar .alibar-container {
+	width: 990px !important
+}
+
+.sw-layout-1000 .sw-layout-box {
+	width: 1000px;
+	min-width: 1000px
+}
+
+.sw-layout-1000 .sw-layout-block {
+	width: 1000px
+}
+
+.sw-layout-1000 #alibar .alibar-container {
+	width: 1000px !important
+}
+
+.sw-layout-1190 .sw-layout-box {
+	width: 1190px;
+	min-width: 1190px
+}
+
+.sw-layout-1190 .sw-layout-block {
+	width: 1190px
+}
+
+.sw-layout-1190 .sw-layout-main, .sw-layout-1190 .sw-offer-220 .sw-layout-main
+	{
+	width: 948px;
+	margin-left: 20px
+}
+
+.sw-layout-1190 .sw-layout-side, .sw-layout-1190 .sw-offer-220 .sw-layout-side
+	{
+	width: 222px;
+	margin-left: 20px
+}
+
+.sw-layout-1190 .sw-offer-270 .sw-layout-main {
+	width: 884px;
+	margin-left: 34px
+}
+
+.sw-layout-1190 .sw-offer-270 .sw-layout-side {
+	width: 272px;
+	margin-left: 34px
+}
+
+.sw-layout-1190 #alibar .alibar-container {
+	width: 1190px !important
+}
+
+.sw-layout-1200 .sw-layout-box {
+	width: 1200px;
+	min-width: 1200px
+}
+
+.sw-layout-1200 .sw-layout-block {
+	width: 1200px
+}
+
+.sw-layout-1200 #alibar .alibar-container {
+	width: 1200px !important
+}
+
+.sw-layout-1390 .sw-layout-box {
+	width: 1390px;
+	min-width: 1390px
+}
+
+.sw-layout-1390 .sw-layout-block {
+	width: 1390px
+}
+
+.sw-layout-1390 .sw-layout-main, .sw-layout-1390 .sw-offer-220 .sw-layout-main
+	{
+	width: 1158px;
+	margin-left: 10px
+}
+
+.sw-layout-1390 .sw-layout-side, .sw-layout-1390 .sw-offer-220 .sw-layout-side
+	{
+	width: 222px;
+	margin-left: 10px
+}
+
+.sw-layout-1390 .sw-offer-270 .sw-layout-main {
+	width: 1109px;
+	margin-left: 9px
+}
+
+.sw-layout-1390 .sw-offer-270 .sw-layout-side {
+	width: 272px;
+	margin-left: 9px
+}
+
+.sw-layout-1390 #alibar .alibar-container {
+	width: 1390px !important
+}
+
+.sw-layout-1400 .sw-layout-box {
+	width: 1400px;
+	min-width: 1400px
+}
+
+.sw-layout-1400 .sw-layout-block {
+	width: 1400px
+}
+
+.sw-layout-1400 #alibar .alibar-container {
+	width: 1400px !important
+}
+
+.sw-layout-990 .sw-layout-grid-first, .sw-layout-1190 .sw-layout-grid-first,
+	.sw-layout-1390 .sw-layout-grid-first, .sw-layout-990 .sw-offer-220 .sw-layout-grid-first,
+	.sw-layout-1190 .sw-offer-220 .sw-layout-grid-first, .sw-layout-1390 .sw-offer-220 .sw-layout-grid-first,
+	.sw-layout-990 .sw-offer-270 .sw-layout-grid-first, .sw-layout-1190 .sw-offer-270 .sw-layout-grid-first,
+	.sw-layout-1390 .sw-offer-270 .sw-layout-grid-first {
+	margin-left: 0 !important
+}

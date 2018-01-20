@@ -1,0 +1,152 @@
+.leadTP {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	bottom: 0;
+	z-index: 300
+}
+
+.leadRegister {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+	z-index: 300
+}
+
+.leadRegister .wrapper {
+	position: relative;
+	height: 100px;
+	background-color: #000;
+	opacity: .8
+}
+
+.leadRegister .content {
+	position: relative;
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 3
+}
+
+.leadRegister .tpContent {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 80px;
+	left: 41%;
+	z-index: 3
+}
+
+.leadRegister .tpContent a.tp {
+	display: block;
+	width: 130px;
+	height: 32px;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+	line-height: 32px;
+	border: 1px solid #a7a7a7;
+	background: -moz-linear-gradient(top, #e5e5e5, #cfcfcf);
+	background: -webkit-gradient(linear, top, from(#e5e5e5), to(#cfcfcf));
+	background: -webkit-linear-gradient(top, #e5e5e5, #cfcfcf);
+	background: -o-linear-gradient(top, #e5e5e5, #cfcfcf);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.leadRegister .tpContent .tpTip {
+	display: block;
+	width: 400px;
+	height: 42px;
+	color: #fff;
+	float: left;
+	text-align: left;
+	line-height: 32px
+}
+
+.leadRegister .shim {
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: .75;
+	filter: alpha(opacity = 65);
+	z-index: 2
+}
+
+.leadRegister .wrapper .title {
+	float: left;
+	width: 1200px;
+	height: 100%;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/other/20160328/register.png)
+		no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cbu01.alicdn.com/cms/upload/other/20160328/register.png');
+	_background-image: none;
+	background-position: 0 0;
+	margin-right: 8px
+}
+
+.leadRegister .wrapper a.register {
+	display: block;
+	width: 118px;
+	height: 41px;
+	cursor: pointer;
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 27px
+}
+
+.leadRegister a.register:link, .leadRegister a.register:visited {
+	background:
+		url(//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom.png)
+		no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom.png');
+	_background-image: none;
+	background-position: 0 0
+}
+
+.leadRegister a.register:hover {
+	background:
+		url(//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom_active.png)
+		no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom_active.png');
+	_background-image: none;
+	background-position: 0 -1px
+}
+
+.leadRegister a.register:active {
+	background:
+		url(//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom_active.png)
+		no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cbu01.alicdn.com/cms/upload/other/20160229/leadregister/buttom_active.png');
+	_background-image: none;
+	background-position: 0 0
+}
+
+.leadRegister .wrapper .login {
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	margin-right: 110px;
+	padding-top: 18px
+}
+
+.leadRegister a.login:hover {
+	color: #ff7300
+}
+
+.leadRegister .wrapper a.close {
+	display: block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	position: absolute;
+	margin-left: 1150px;
+	margin-top: 0
+}

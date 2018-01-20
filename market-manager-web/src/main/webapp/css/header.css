@@ -1,0 +1,186 @@
+.sm-header {
+	background: #f6f6f6;
+	margin-bottom: 16px;
+	min-width: 1000px;
+	color: #555;
+	height: 110px
+}
+
+.sm-header a:link, .sm-header a:visited {
+	color: #555
+}
+
+.sm-header a:hover {
+	color: #ff7300;
+	text-decoration: none
+}
+
+.sm-header a span, .sm-header a em {
+	cursor: pointer
+}
+
+.sm-header span, .sm-header em {
+	cursor: default
+}
+
+.sw-logo {
+	background:
+		url(//cbu01.alicdn.com/cms/upload/2015/891/153/2351198_1367035968.png)
+		no-repeat
+}
+
+.fui-web-suggestion {
+	z-index: 9
+}
+
+.sm-header {
+	position: relative;
+	z-index: 9
+}
+
+.sm-header .sm-side {
+	float: left;
+	display: inline;
+	width: 289px;
+	height: 38px;
+	line-height: 38px;
+	margin: 41px 0 0
+}
+
+.sm-header .sm-main {
+	float: right;
+	display: inline;
+	margin: 35px 0 0
+}
+
+.sw-layout-990 .sm-header .sm-main {
+	width: 530px
+}
+
+.sw-layout-990 .sm-searchbar .sm-widget-search .sm-widget-input {
+	width: 406px
+}
+
+.sw-layout-1190 .sm-header .sm-main {
+	width: 700px
+}
+
+.sw-layout-1190 .sm-searchbar .sm-widget-search .sm-widget-input {
+	width: 576px
+}
+
+.sw-layout-1390 .sm-header .sm-main {
+	width: 850px
+}
+
+.sw-layout-1390 .sm-searchbar .sm-widget-search .sm-widget-input {
+	width: 726px
+}
+
+.sw-logo {
+	width: 205px;
+	height: 38px;
+	overflow: hidden;
+	float: left
+}
+
+.sub-logo {
+	font-size: 18px;
+	font-weight: 700;
+	color: #666;
+	margin-left: 5px
+}
+
+.sm-searchbar .sm-widget-tabs .sm-widget-checked:link, .sm-searchbar .sm-widget-tabs .sm-widget-checked:visited,
+	.sm-searchbar .sm-widget-tabs .sm-widget-checked:hover {
+	color: #ff7300
+}
+
+.sm-searchbar .sm-widget-tabs .sm-widget-split {
+	float: left;
+	display: inline;
+	height: 12px;
+	width: 1px;
+	overflow: hidden;
+	background: #e2e2e2;
+	margin-top: 3px
+}
+
+.sm-searchbar .sm-widget-search {
+	position: relative
+}
+
+.sm-searchbar .sm-widget-search .sm-widget-input {
+	border: solid 2px #ddd;
+	height: 18px;
+	padding: 8px 110px 10px 10px;
+	color: #999;
+	line-height: 17px
+}
+
+.sm-searchbar .sm-widget-search .sm-widget-input-hover {
+	border-color: #ff500b
+}
+
+.sm-searchbar .sm-widget-search a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 39px;
+	text-align: center
+}
+
+.sm-searchbar .sm-widget-search a:link, .sm-searchbar .sm-widget-search a:visited,
+	.sm-searchbar .sm-widget-search a:hover {
+	background: #ff500b;
+	color: #fff
+}
+
+.sm-widget-hotkeywords {
+	padding-top: 5px;
+	height: 18px;
+	overflow: hidden
+}
+
+.sm-widget-hotkeywords li {
+	float: left;
+	display: inline;
+	height: 18px;
+	margin: 0 9px 0 9px
+}
+
+.sm-widget-hotkeywords a {
+	float: left;
+	display: inline;
+	height: 18px;
+	line-height: 17px
+}
+
+.sm-widget-hotkeywords a:link, .sm-widget-hotkeywords a:visited {
+	color: #999
+}
+
+.sm-searchbar .sm-widget-hotkeywords a:hover {
+	color: #ff7300
+}
+
+.sm-header .sm-widget-txt {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 39px;
+	text-align: center;
+	background: #ff500b;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	z-index: 1
+}

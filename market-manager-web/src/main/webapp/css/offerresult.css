@@ -1,0 +1,1312 @@
+.sm-offer {
+	margin-top: 20px
+}
+
+.sm-offer .sm-offer-item {
+	position: relative;
+	z-index: 1;
+	float: left;
+	padding-bottom: 0 !important;
+	margin-bottom: 20px
+}
+
+.sm-offer .sm-offer-item:hover {
+	z-index: 2
+}
+
+.sm-offer .sm-offer-item .sm-doLegal {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 4;
+	background: #FFF;
+	padding: 3px 5px;
+	cursor: pointer
+}
+
+.sm-offer .sm-offer-main {
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	border: none !important;
+	zoom: 1
+}
+
+.sm-offer .sm-offer-main.hover {
+	z-index: 3
+}
+
+.sm-offer .sm-offer-row {
+	position: relative;
+	max-height: 1170px;
+	overflow: hidden
+}
+
+.sm-offer .sm-offer-rmb {
+	display: inline-block !important;
+	width: auto !important;
+	padding-right: 2px;
+	font-weight: 400
+}
+
+.sm-offer .sm-offer-trigger {
+	clear: both;
+	height: 1px;
+	width: 1px;
+	overflow: hidden
+}
+
+.sw-layout-1390 .sw-offer-220 .sm-offer {
+	width: 1170px;
+	margin-left: -12px
+}
+
+.sw-layout-1390 .sw-offer-220 .sm-offer-item {
+	margin-left: 12px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer {
+	width: 1116px;
+	margin-left: -7px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-item {
+	margin-left: 7px
+}
+
+.sw-layout-1190 .sw-offer-220 .sm-offer {
+	width: 968px;
+	margin-left: -20px
+}
+
+.sw-layout-1190 .sw-offer-220 .sm-offer-item {
+	margin-left: 20px
+}
+
+.sw-layout-1190 .sw-offer-270 .sm-offer {
+	width: 918px;
+	margin-left: -34px
+}
+
+.sw-layout-1190 .sw-offer-270 .sm-offer-item {
+	margin-left: 34px
+}
+
+.sw-layout-990 .sw-offer-220 .sm-offer, .sw-layout-990 .sw-offer-270 .sm-offer
+	{
+	width: 768px;
+	margin-left: -34px
+}
+
+.sw-layout-990 .sw-offer-220 .sm-offer-item, .sw-layout-990 .sw-offer-270 .sm-offer-item
+	{
+	margin-left: 34px
+}
+
+.sm-offer-fc {
+	width: auto !important
+}
+
+.sm-offer-onerow {
+	height: 390px;
+	overflow: hidden
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-fc {
+	margin-left: -6px
+}
+
+.sw-layout-1390 .sw-offer-220 .sm-offer-fc {
+	margin-left: -10px
+}
+
+.sw-layout-1390 .sw-offer-220 .sm-offer-fc .sm-offer-item {
+	margin-left: 11px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-row, .sw-layout-1190 .sw-offer-270 .sm-offer-row
+	{
+	height: 440px
+}
+
+.sm-offer .sm-offer-sizeTag, .sm-offer .sm-offer-photoMask, .sm-offer .sm-offer-photoMaskBt
+	{
+	_display: none;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	-o-transition: opacity .2s linear;
+	transition: opacity .2s linear
+}
+
+.sm-offer .sm-offer-photoMask {
+	-webkit-transform: translateY(38px);
+	-moz-transform: translateY(38px);
+	-ms-transform: translateY(38px);
+	-o-transform: translateY(38px);
+	transform: translateY(38px);
+	-webkit-transition: transform .2s linear;
+	-moz-transition: transform .2s linear;
+	-o-transition: transform .2s linear;
+	transition: transform .2s linear
+}
+
+.sm-offer .sm-offer-photoMaskBt {
+	-webkit-transform: translateY(25px);
+	-moz-transform: translateY(25px);
+	-ms-transform: translateY(25px);
+	-o-transform: translateY(25px);
+	transform: translateY(25px);
+	-webkit-transition: transform .2s linear;
+	-moz-transition: transform .2s linear;
+	-o-transition: transform .2s linear;
+	transition: transform .2s linear
+}
+
+.sm-offer .sm-offer-sizeTag {
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.sm-offer .sm-offer-sizeTag.directShow {
+	top: 240px;
+	visibility: visible;
+	opacity: 1
+}
+
+.sm-offer .sm-offer-sizeTagInner {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	color: #FFF;
+	background: #000;
+	background: rgba(0, 0, 0, .6);
+	filter: alpha(opacity = 60);
+	zoom: 1
+}
+
+.sm-offer .sm-offer-sizeTagInner a, .sm-offer .sm-offer-sizeTagInner em
+	{
+	position: relative;
+	padding: 0 8px;
+	border-left: 1px solid #FFF;
+	color: #FFF
+}
+
+.sm-offer .sm-offer-sizeTagInner a.first, .sm-offer .sm-offer-sizeTagInner em.first
+	{
+	border: none
+}
+
+.sm-offer .sm-offer-photoMask {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 38px;
+	width: 100%;
+	overflow: hidden
+}
+
+.sm-offer .sm-offer-photoMask.hide {
+	height: 0;
+	display: none !important
+}
+
+.sm-offer .sm-offer-photoMaskBt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	overflow: hidden
+}
+
+.sm-offer .sm-offer-photoMaskBt.hide {
+	height: 0;
+	display: none !important
+}
+
+.sm-offer .sm-offer-photoMask:not (:root ){
+	visibility: visible
+}
+
+.sm-offer .sm-offer-photoMaskBt:not (:root ){
+	visibility: visible
+}
+
+.sm-offer .sm-offer-photoMaskInner {
+	text-align: center;
+	color: #FFF;
+	background: #ff7300;
+	background: rgba(255, 115, 0, .9);
+	filter: alpha(opacity = 90);
+	zoom: 1
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery {
+	height: 28px;
+	padding: 10px 5px 0 5px
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .distribute-btn
+	{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	height: 18px;
+	width: 70px;
+	position: relative
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .distribute-btn button
+	{
+	color: #fff;
+	background: #ff7300;
+	background: rgba(255, 115, 0, 0);
+	filter: alpha(opacity = 100);
+	zoom: 1;
+	border: none;
+	height: 18px;
+	width: 70px;
+	font-family: "microsoft yahei";
+	font-size: 14px
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .distribute-btn button span
+	{
+	display: inline-block;
+	*display: inline;
+	zoom: 1
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .distribute-btn button .totaobao-icon
+	{
+	width: 14px;
+	height: 13px;
+	margin-right: 3px;
+	*margin-right: 3px;
+	*margin-bottom: 5px;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/2016/521/465/2564125_650721993.png)
+		no-repeat center center
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery button:hover {
+	cursor: pointer
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery a {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/2015/970/025/2520079_650721993.png)
+		no-repeat;
+	height: 16px;
+	width: 16px;
+	background-color: rgba(255, 255, 255, .3);
+	position: absolute;
+	bottom: 5px
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .guarantee-48hours
+	{
+	background-position: 0 0;
+	right: 22px
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery .guarantee-15change
+	{
+	background-position: -22px 0;
+	right: 3px
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery:hover {
+	background: #FF500B
+}
+
+.sm-offer .sm-offer-photoMaskInner .sm-offer-oneDelivery:hover button {
+	background: #FF500B
+}
+
+.sm-offer .sm-offer-photoMaskInnerBt {
+	text-align: center;
+	color: #FFF;
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	filter: alpha(opacity = 50);
+	zoom: 1
+}
+
+.sm-offer .sm-offer-offerTag {
+	position: relative;
+	height: 22px;
+	margin-bottom: 4px;
+	overflow: hidden
+}
+
+.sm-offer .sm-offer-offerTag span {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 0 5px;
+	border: 1px solid #FFF
+}
+
+.sm-offer .sm-offer-offerTag span.first {
+	margin-left: 0
+}
+
+.sm-offer .sm-offer-maskSimilar {
+	position: relative
+}
+
+.sm-offer .sm-offer-maskSimilar a {
+	position: relative;
+	z-index: 1;
+	display: block;
+	float: left;
+	height: 28px;
+	padding: 10px 5px 0 5px;
+	margin-right: -1px;
+	border-left: 1px solid #FEA153;
+	border-right: 1px solid #FEA153;
+	color: #FFF !important;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url(ellipsis.xml#ellipsis)
+}
+
+.sm-offer .sm-offer-maskSimilar a.first {
+	border: none
+}
+
+.sm-offer .sm-offer-maskSimilar a:hover {
+	z-index: 2;
+	background-color: #FF500B;
+	border-color: #FF500B
+}
+
+.sm-offer .sm-offer-maskSimilarBt {
+	position: relative;
+	text-align: center
+}
+
+.sm-offer .sm-offer-maskSimilarBt a {
+	position: relative;
+	z-index: 1;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	margin-right: -1px;
+	color: #FFF !important;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url(ellipsis.xml#ellipsis)
+}
+
+.sm-offer .sm-offer-maskSimilarBt a.firstBt {
+	border: none
+}
+
+.sm-offer .sm-offer-maskSimilarBt a:hover {
+	z-index: 2
+}
+
+.sm-offer .sm-offer-maskSimilarBt .split {
+	display: inline-block;
+	height: 13px;
+	width: 1px;
+	background: #fff;
+	margin: 6px 10px
+}
+
+.sm-offer .sm-offer-maskSimilar-col3 a {
+	width: 63px
+}
+
+.sm-offer .sm-offer-maskSimilar-col2 a {
+	width: 100px
+}
+
+.sm-offer .sm-offer-maskSimilar-col1 a {
+	width: 210px
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-sizeTag, .sm-offer .sm-offer-main.hover .sm-offer-photoMask
+	{
+	_display: block !important;
+	visibility: visible !important;
+	opacity: 1
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-sizeTag.directShow {
+	display: none !important;
+	_display: none !important
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-photoMaskBt {
+	_display: block !important;
+	visibility: visible !important;
+	opacity: 1
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-photoMask {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-photoMaskBt {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-imgtags .left-tag-sdby {
+	display: none !important
+}
+
+.sm-offer .sm-offer-imgtags {
+	position: absolute;
+	left: 0;
+	top: 200px;
+	height: 20px;
+	width: 100%;
+	z-index: 2;
+	display: block
+}
+
+.sm-offer .sm-offer-imgtags .left-tag {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	height: 24px;
+	width: 65px;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/2015/350/025/2520053_650721993.png)
+		no-repeat center center;
+	margin-left: -5px;
+	margin-bottom: -10px
+}
+
+.sm-offer .sm-offer-imgtags .left-tag span {
+	display: block;
+	height: 20px;
+	width: 56px;
+	padding-left: 8px;
+	overflow: hidden;
+	background: #ff7300;
+	color: #fff;
+	font-size: 12px;
+	line-height: 19px
+}
+
+.sm-offer .sm-offer-imgtags .left-long-tag span {
+	width: 82px
+}
+
+.sm-offer .sm-offer-imgtags .right-tag {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	*margin-top: -14px;
+	padding: 0 5px;
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	filter: alpha(opacity = 50);
+	color: #fff;
+	*position: relative
+}
+
+.sm-offer .sm-offer-imgtags .right-tag em {
+	opacity: .5;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	height: 8px;
+	border-left: 1px solid #fff;
+	margin: 0 2px;
+	*position: absolute;
+	*top: 6px;
+	*left: 65px
+}
+
+.sm-offer .sm-offer-imgtags .right-tag.jinkou {
+	color: #fff
+}
+
+.sm-offer .sm-offer-imgtags .right-tag.jinkou em {
+	border: none
+}
+
+.sm-offer .sm-offer-imgtags .right-tag.jinkou .original-country {
+	float: right;
+	width: 18px;
+	height: 12px;
+	margin-top: 5px;
+	margin-left: 4px
+}
+
+.sw-offer-220 .sm-offer-sizeTag.directShow {
+	top: 190px
+}
+
+.sw-offer-270 .sm-offer-maskSimilar-col3 {
+	width: 271px
+}
+
+.sw-offer-270 .sm-offer-maskSimilar-col3 a {
+	width: 80px
+}
+
+.sw-offer-270 .sm-offer-maskSimilar-col2 a {
+	width: 125px
+}
+
+.sw-offer-270 .sm-offer-maskSimilar-col1 a {
+	width: 260px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-maskSimilar-col3 a {
+	width: 63px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-maskSimilar-col2 a {
+	width: 100px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-maskSimilar-col1 a {
+	width: 210px
+}
+
+.sm-offer .sm-offer-infoMask {
+	position: absolute;
+	z-index: 2;
+	bottom: -115px;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: #FFF;
+	zoom: 1
+}
+
+.sm-offer .sm-offer-dealInfo, .sm-offer .sm-offer-companyInfo {
+	_display: none;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	-o-transition: opacity .2s linear;
+	transition: opacity .2s linear
+}
+
+.sm-offer .sm-offer-dealInfo {
+	width: 100%;
+	height: 46px;
+	_margin-left: -1px;
+	border-bottom: 1px solid #efefef;
+	overflow: hidden
+}
+
+.sm-offer .sm-offer-dealInfo span {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 38px;
+	line-height: 20px;
+	padding: 6px;
+	padding-top: 8px !important;
+	border-left: 1px solid #efefef;
+	overflow: hidden;
+	word-break: break-all
+}
+
+.sm-offer .sm-offer-dealInfo span.first {
+	border: none
+}
+
+.sm-offer .sm-offer-dealInfo span i, .sm-offer .sm-offer-dealInfo span em
+	{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 14px;
+	line-height: 14px;
+	word-break: break-all;
+	font-family: Arial;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url(ellipsis.xml#ellipsis)
+}
+
+.sm-offer .sm-offer-dealInfo span i {
+	margin-bottom: 3px;
+	font-size: 14px;
+	color: #ff7300
+}
+
+.sm-offer .sm-offer-dealInfo .sm-offer-priceLocked {
+	margin-top: 15px;
+	text-align: center
+}
+
+.sm-offer .sm-offer-dealInfo-1 span {
+	padding: 6px 15px;
+	width: 190px
+}
+
+.sm-offer .sm-offer-dealInfo-2 span {
+	padding: 6px 15px;
+	width: 79px
+}
+
+.sm-offer .sm-offer-dealInfo-3 span {
+	padding: 6px 3px 6px 7px;
+	width: 62px
+}
+
+.sm-offer .sm-offer-companyInfo {
+	padding: 10px 15px
+}
+
+.sm-offer .sm-offer-companyInfo dt, .sm-offer .sm-offer-companyInfo dd {
+	display: block;
+	height: 20px;
+	line-height: 20px
+}
+
+.sm-offer .sm-offer-companyInfo dt {
+	display: inline-block;
+	float: left
+}
+
+.sm-offer .sm-offer-companyInfo dd {
+	margin-left: 5em;
+	color: #555;
+	text-align: left
+}
+
+.sm-offer .sm-offer-companyDetail {
+	text-align: center
+}
+
+.sm-offer .sm-offer-companyBadges {
+	position: absolute;
+	right: 10px;
+	bottom: 10px
+}
+
+.sm-offer .sm-offer-companyBadges a {
+	float: left;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin-left: 3px
+}
+
+.sm-offer .sm-offer-loading {
+	margin-top: 25px
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-infoMask {
+	height: 150px
+}
+
+.sm-offer .sm-offer-main.hover .sm-offer-dealInfo, .sm-offer .sm-offer-main.hover .sm-offer-companyInfo
+	{
+	_display: block !important;
+	visibility: visible !important;
+	opacity: 1
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-back {
+	float: right;
+	width: 44px;
+	height: 40px;
+	padding: 8px 0 8px 15px;
+	margin-top: 6px;
+	border-left: solid 1px #efefef;
+	text-align: center;
+	line-height: 20px
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info {
+	margin-top: -4px;
+	margin-left: -5px
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-row, .sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-biz
+	{
+	line-height: 22px;
+	text-align: left
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-row .sm-offer-bsr-name
+	{
+	margin-right: 1em
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-name {
+	color: #888
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-sub {
+	color: #aaa
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-value {
+	color: #333
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-value-red {
+	color: red
+}
+
+.sm-offer .sm-offer-bsr .sm-offer-bsr-info .sm-offer-bsr-value-green {
+	color: #25be13
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-dealInfo-1 span, .sw-layout-1190 .sw-offer-270 .sm-offer-dealInfo-1 span
+	{
+	padding: 6px 15px;
+	width: 240px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-dealInfo-2 span, .sw-layout-1190 .sw-offer-270 .sm-offer-dealInfo-2 span
+	{
+	padding: 6px 15px;
+	width: 104px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-dealInfo-3 span, .sw-layout-1190 .sw-offer-270 .sm-offer-dealInfo-3 span
+	{
+	padding: 6px 13px 6px 14px;
+	width: 62px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-dealInfo span {
+	width: 42px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-dealInfo-1 span {
+	padding: 6px 15px;
+	width: 190px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-dealInfo-2 span {
+	padding: 6px 15px;
+	width: 79px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-dealInfo-3 span {
+	padding: 6px 3px 6px 7px;
+	width: 62px
+}
+
+.sm-offer-item .sm-offer-infoMask {
+	overflow: hidden
+}
+
+.sm-offer-item .sm-offer-caigou-promise {
+	width: 222px;
+	height: 113px;
+	overflow: hidden;
+	background: #f8f8f8;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s
+}
+
+.sm-offer-item .sm-offer-caigou-promise a {
+	float: left;
+	display: inline;
+	width: 110px;
+	height: 56px;
+	border: solid 1px #eee;
+	border-width: 0 1px 1px 0;
+	background: #f8f8f8;
+	text-align: center
+}
+
+.sm-offer-item .sm-offer-caigou-promise a:link, .sm-offer-item .sm-offer-caigou-promise a:visited,
+	.sm-offer-item .sm-offer-caigou-promise a:hover {
+	color: #666;
+	text-decoration: none
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-icon-caigou {
+	display: block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	margin: 10px auto 0;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/search/common/20150128/icon.png)
+		no-repeat
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-icon-genuine {
+	background-position: -30px -120px
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-icon-delivery {
+	background-position: -30px -140px
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-icon-invoice {
+	background-position: -30px -160px
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-icon-returns {
+	background-position: -30px -180px
+}
+
+.sm-offer-item .sm-offer-caigou-promise .sm-widget-txt {
+	display: inline-block;
+	margin-top: 8px;
+	color: #666;
+	line-height: 1
+}
+
+.sm-offer-item .sm-offer-caigou-tags {
+	height: 27px;
+	padding: 9px 13px 0 0;
+	border-top: solid 1px #eee;
+	text-align: right;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s
+}
+
+.sm-offer-item .hover .sm-offer-infoMask .sm-offer-caigou-promise,
+	.sm-offer-item .hover .sm-offer-infoMask .sm-offer-caigou-tags {
+	opacity: 1;
+	visibility: visible
+}
+
+.sw-offer-270 .sm-offer-item .sm-offer-caigou-promise {
+	width: 272px
+}
+
+.sw-offer-270 .sm-offer-item .sm-offer-caigou-promise a {
+	width: 135px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-item .sm-offer-caigou-promise {
+	width: 222px
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-item .sm-offer-caigou-promise a {
+	width: 110px
+}
+
+.sw-offer-270 .sm-offer .sm-offer-trade.sm-offer-tradeBt {
+	width: 120px
+}
+
+.sw-layout-990 .sm-offer .sm-offer-trade.sm-offer-tradeBt {
+	width: 110px
+}
+
+.sw-offer-220 .sm-offer .sm-offer-trade.sm-offer-tradeBt {
+	width: 110px
+}
+
+.sm-widget-offershopwindowtitle-onerow-old {
+	height: 18px;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.sm-widget-offershopwindowtitle-onerow-old .wsw-bamboo {
+	display: none
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old {
+	height: 18px;
+	overflow: hidden;
+	padding: 0 10px 10px;
+	margin-top: -10px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old * {
+	line-height: 18px;
+	color: #666
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old span {
+	float: left
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old i {
+	float: right
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sw-text-highlight {
+	background-color: #ff7300;
+	padding: 0 3px;
+	color: #fff
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon,
+	.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon em
+	{
+	background-image:
+		url(//cbu01.alicdn.com/cms/upload/search/icon/lookback.png);
+	background-repeat: no-repeat
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon
+	{
+	width: 36px;
+	height: 18px;
+	background-position: 0 3px;
+	margin-right: 4px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon em
+	{
+	display: block;
+	width: 36px;
+	height: 18px;
+	overflow: hidden;
+	background-position: -36px 3px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv1
+	{
+	width: 0
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv2
+	{
+	width: 6px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv3
+	{
+	width: 12px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv4
+	{
+	width: 18px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv5
+	{
+	width: 24px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv6
+	{
+	width: 30px
+}
+
+.sm-widget-offershopwindowshoprepurchaserate-old .sm-widget-repurchaseicon .lv7
+	{
+	width: 36px
+}
+
+.sm-offer-item .sm-offer-shilitag {
+	float: right;
+	display: inline;
+	margin-right: 4px
+}
+
+.sw-offer-270 .sm-offer-item .sm-offer-company .sm-offer-name-short {
+	width: 7em
+}
+
+.sw-offer-220 .sm-offer-item .sm-offer-company .sm-offer-name-short {
+	width: 7em
+}
+
+.sw-layout-990 .sw-offer-270 .sm-offer-item .sm-offer-company .sm-offer-name-short
+	{
+	width: 7em
+}
+
+.sm-offer .sw-dpl-offer-price, .sm-offer .sw-dpl-offer-title, .sm-offer .sw-dpl-offer-company
+	{
+	margin-right: 10px;
+	margin-left: 10px
+}
+
+.sm-offer .sm-offer-sub {
+	position: relative;
+	z-index: 2;
+	height: 36px;
+	line-height: 18px;
+	border-top: 1px solid #efefef
+}
+
+.sm-offer .sm-offer-sub .sm-offer-ww {
+	padding-right: 5px
+}
+
+.sm-offer .sm-offer-sub .sm-offer-tags {
+	width: 85px;
+	max-height: 75px;
+	overflow: hidden;
+	padding: 10px 2px 0 3px
+}
+
+.sm-offer .sm-offer-sub .sm-offer-subicon {
+	height: 20px;
+	padding-top: 10px;
+	padding-right: 0;
+	width: 98px;
+	overflow: hidden;
+	z-index: 3;
+	position: absolute;
+	left: 92px;
+	text-align: left;
+	padding-left: 4px;
+	font-size: 0
+}
+
+.sm-offer .sm-offer-sub .sm-offer-subicon a, .sm-offer .sm-offer-sub .sm-offer-subicon span,
+	.sm-offer .sm-offer-sub .sm-offer-subicon i {
+	margin-right: 3px
+}
+
+.sm-offer .sm-offer-sub .sm-offer-subicon.hover {
+	height: auto;
+	border: 1px solid #efefef;
+	border-top: 0;
+	left: 91px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	z-index: 3;
+	background: #fff
+}
+
+.sm-offer .sm-offer-location {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 7em;
+	height: 20px;
+	margin: 9px 10px;
+	margin-right: 0;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url(ellipsis.xml#ellipsis)
+}
+
+.sm-offer .sm-offer-tags {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	max-height: 30px;
+	padding: 10px 8px 0 3px;
+	margin-bottom: -2px;
+	background: #FFF;
+	overflow: hidden;
+	zoom: 1;
+	width: 171px;
+	-webkit-transition: max-height .3s linear;
+	-moz-transition: max-height .3s linear;
+	-o-transition: max-height .3s linear;
+	transition: max-height .3s linear
+}
+
+.sm-offer .sm-offer-tags a {
+	-webkit-transition: color 0s linear;
+	-moz-transition: color 0s linear;
+	-o-transition: color 0s linear;
+	transition: color 0s linear
+}
+
+.sm-offer .sm-offer-tags a, .sm-offer .sm-offer-tags a:link, .sm-offer .sm-offer-tags a:hover
+	{
+	color: #FFF
+}
+
+.sm-offer .sm-offer-tags.hover {
+	height: auto;
+	max-height: 200px;
+	border: 1px solid #efefef;
+	border-top: 0;
+	left: -1px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	z-index: 6
+}
+
+.sm-offer .sm-offer-tags.hover .sm-offer-tagNotice {
+	display: none
+}
+
+.sm-offer .sm-offer-tags.hover li.more {
+	display: block !important
+}
+
+.sm-offer .sm-offer-tags li {
+	margin-bottom: 10px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	color: #FFF;
+	margin-left: 5px;
+	max-width: 80px;
+	height: 16px;
+	*min-width: 45px
+}
+
+.sm-offer .sm-offer-tags li>span {
+	*vertical-align: baseline !important;
+	*height: 17px
+}
+
+.sm-offer .sm-offer-tags li a, .sm-offer .sm-offer-tags li .sw-ui-tag {
+	vertical-align: top
+}
+
+.sm-offer .sm-offer-tags li .sw-ui-tag-verticalBiz, .sm-offer .sm-offer-tags li .sw-ui-tag-beishu,
+	.sm-offer .sm-offer-tags li .sw-ui-tag-dacu, .sm-offer .sm-offer-tags li .sw-ui-tag-individuation,
+	.sm-offer .sm-offer-tags li .sw-ui-tag-normal, .sm-offer .sm-offer-tags li .sw-ui-tag-oc
+	{
+	padding: 0 2px;
+	vertical-align: top
+}
+
+.sm-offer .sm-offer-tags .sm-offer-tagNotice {
+	position: absolute;
+	top: 29px;
+	left: 9px;
+	right: 9px;
+	height: 1px;
+	background: #CCC
+}
+
+.sm-offer .sm-offer-ww {
+	float: right;
+	height: 27px;
+	padding-top: 9px;
+	padding-right: 10px
+}
+
+.sm-offer .sm-offer-badges {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 8px;
+	height: 8px;
+	background: #000
+}
+
+.sm-offer .sm-offer-chanyedai {
+	color: #888
+}
+
+.sm-offer .sm-offer-chanyedai:hover {
+	color: #ff7300
+}
+
+.sm-offer .sm-offer-chanyedaiTip {
+	padding: 8px
+}
+
+.sm-offer-flag {
+	position: absolute;
+	top: -2px;
+	right: 5px;
+	vertical-align: text-top;
+	z-index: 1;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/search/icons/icons_old_2.png) 0
+		-524px no-repeat;
+	width: 39px;
+	height: 43px;
+	text-align: center
+}
+
+.sm-offer-flag img {
+	position: relative;
+	top: 9px;
+	left: -1px
+}
+
+.sm-offer-flag.sourcegoods {
+	position: absolute;
+	top: -2px;
+	right: 5px;
+	width: 36px;
+	height: 40px;
+	background:
+		url(//cbu01.alicdn.com/cms/upload/2016/723/606/2606327_1073447813.png);
+	z-index: 1
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-ww, .sw-layout-1190 .sw-offer-270 .sm-offer-ww
+	{
+	padding-left: 10px;
+	border-left: 1px solid #efefef
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-location, .sw-layout-1190 .sw-offer-270 .sm-offer-location
+	{
+	width: 10em
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-sub .sm-offer-subicon,
+	.sw-layout-1190 .sw-offer-270 .sm-offer-sub .sm-offer-subicon {
+	width: 140px;
+	left: 97px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-sub .sm-offer-subicon.hover,
+	.sw-layout-1190 .sw-offer-270 .sm-offer-sub .sm-offer-subicon.hover {
+	left: 96px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-sub .sm-offer-ww,
+	.sw-layout-1190 .sw-offer-270 .sm-offer-sub .sm-offer-ww {
+	padding-right: 7px
+}
+
+.sw-layout-1390 .sw-offer-270 .sm-offer-sub .sm-offer-tags,
+	.sw-layout-1190 .sw-offer-270 .sm-offer-sub .sm-offer-tags {
+	padding: 10px 5px 0 3px
+}
+
+.sm-offer .sm-offer-photoMask, .sm-offer .sm-offer-photoMaskBt {
+	opacity: 1
+}

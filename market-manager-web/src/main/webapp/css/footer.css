@@ -1,0 +1,344 @@
+.hp_footer_outer {
+	background-color: #282828;
+	height: 404px;
+	padding-top: 27px
+}
+
+.hp_footer_outer a:hover {
+	color: #ff7300 !important;
+	text-decoration: none
+}
+
+.hp_footer_inner #footer-v1 {
+	padding-top: 14px;
+	border-top: 1px solid #343434;
+	width: 990px
+}
+
+.footer-ali-group li {
+	height: 24px;
+	line-height: 24px
+}
+
+.footer-ali-group li.len24 {
+	width: 24px
+}
+
+.footer-ali-group li.len28 {
+	width: 28px
+}
+
+.footer-ali-group li.len36 {
+	width: 36px
+}
+
+.footer-ali-group li.len38 {
+	width: 38px
+}
+
+.footer-ali-group li.len42 {
+	width: 42px
+}
+
+.footer-ali-group li.len48 {
+	width: 48px
+}
+
+.footer-ali-group li.len60 {
+	width: 60px
+}
+
+.footer-ali-group li.len72 {
+	width: 72px
+}
+
+.footer-ali-group li.len84 {
+	width: 84px
+}
+
+.footer-ali-group li.word-2 {
+	width: 24px
+}
+
+.footer-ali-group li.word-3 {
+	width: 36px
+}
+
+.footer-ali-group li.word-4 {
+	width: 48px
+}
+
+.footer-ali-group li.word-5 {
+	width: 60px
+}
+
+.footer-ali-group li.word-6 {
+	width: 72px
+}
+
+.footer-ali-group li.word-7 {
+	width: 84px
+}
+
+.footer-ali-group li.len-40 {
+	width: 38px
+}
+
+.footer-ali-group li a {
+	color: #666;
+	font-size: 12px
+}
+
+.footer-ali-group li.separation {
+	color: #333;
+	font-size: 12px
+}
+
+.ali_relative li {
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	margin-top: 8px
+}
+
+.ali_relative li a {
+	color: #666
+}
+
+.ali_relative li.separation {
+	color: #333;
+	padding: 0 4px
+}
+
+.net-admission {
+	margin-top: 8px
+}
+
+.net-admission li {
+	height: 24px;
+	line-height: 24px;
+	float: left
+}
+
+.net-admission li, .net-admission li a {
+	color: #444
+}
+
+p.copyright {
+	height: 24px;
+	line-height: 24px;
+	color: #444
+}
+
+.footer-ali-certs {
+	margin-top: 14px;
+	height: 30px;
+	background-repeat: no-repeat
+}
+
+.footer-ali-certs a {
+	display: block;
+	height: 30px;
+	float: left;
+	margin-right: 6px;
+	background-image:
+		url(//cbu01.alicdn.com/cms/upload/2015/510/852/2258015_1805353437.png)
+}
+
+.footer-ali-certs a.cert-1 {
+	width: 73px;
+	background-position: 0 -38px
+}
+
+.footer-ali-certs a.cert-2 {
+	width: 90px;
+	background-position: -79px -38px
+}
+
+.footer-ali-certs a.cert-3 {
+	width: 73px;
+	margin-right: 7px;
+	background-position: -175px -38px
+}
+
+.footer-ali-certs a.cert-4 {
+	width: 73px;
+	background-position: -255px -38px
+}
+
+.footer-ali-certs a.cert-5 {
+	width: 85px;
+	background-position: -334px -38px
+}
+
+.footer-ali-certs a.cert-6 {
+	width: 100px;
+	background-position: -426px -38px
+}
+
+.footer-ali-certs a.cert-6:hover {
+	width: 100px;
+	background-position: -426px 0
+}
+
+.footer-ali-certs a.cert-1:hover {
+	background-position: 0 0
+}
+
+.footer-ali-certs a.cert-2:hover {
+	background-position: -79px 0
+}
+
+.footer-ali-certs a.cert-3:hover {
+	background-position: -175px 0
+}
+
+.footer-ali-certs a.cert-4:hover {
+	background-position: -255px 0
+}
+
+.footer-ali-certs a.cert-5:hover {
+	background-position: -334px 0
+}
+
+.hp_footer_inner {
+	background-image:
+		url(//cbu01.alicdn.com/cms/upload/2015/510/852/2258015_1805353437.png);
+	background-position: -288px -77px;
+	background-repeat: no-repeat
+}
+
+.hp_footer_inner #ali_service {
+	width: 990px;
+	height: 188px
+}
+
+ul.group_list li.group_item {
+	float: left;
+	width: 122px;
+	margin-right: 35px
+}
+
+ul.group_list li.group_item.mobile {
+	width: 153px;
+	float: right
+}
+
+ul.group_list li.group_item h2 {
+	font-size: 14px;
+	color: #999;
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #333
+}
+
+ul.group_list li.group_item.mobile h2 span, ul.group_list li.group_item.mobile h2 a
+	{
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	color: #999
+}
+
+ul.group_list li.group_item ul {
+	padding-top: 9px
+}
+
+ul.group_list li.group_item ul li {
+	height: 24px;
+	line-height: 24px
+}
+
+ul.group_list li.group_item ul li a {
+	font-size: 12px;
+	color: #888
+}
+
+ul.group_list li.group_item.mobile .mob_app {
+	display: block;
+	width: 153px;
+	height: 30px;
+	margin-top: 12px;
+	background-image:
+		url(//cbu01.alicdn.com/cms/upload/2014/856/560/2065658_1805353437.png);
+	background-repeat: no-repeat
+}
+
+ul.group_list li.group_item.mobile .mob_app.iphone {
+	background-position: 0 -76px
+}
+
+ul.group_list li.group_item.mobile .mob_app.android {
+	background-position: 0 -114px
+}
+
+ul.group_list li.group_item.mobile .mob_app.iphone:hover {
+	background-position: 0 -154px
+}
+
+ul.group_list li.group_item.mobile .mob_app.android:hover {
+	background-position: 0 -196px
+}
+
+.flag_icon {
+	height: 38px;
+	padding-top: 10px;
+	border-bottom: 1px solid #e7e7e7
+}
+
+.flag_icon .authentication, .flag_icon .insurance, .flag_icon .security
+	{
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin-left: 32px;
+	font-size: 0;
+	_display: inline
+}
+
+.flag_icon .authentication {
+	margin-left: 30px !important
+}
+
+.sw-layout-990 .layout {
+	width: 990px !important;
+	margin: 0 auto
+}
+
+.sw-layout-1190 .layout {
+	width: 1190px !important;
+	margin: 0 auto
+}
+
+.sw-layout-1390 .layout {
+	width: 1110px !important;
+	margin-left: 280px
+}
+
+.sw-layout-990 .hp_footer_inner {
+	background: 0 0 !important
+}
+
+.sw-layout-990 .hp_footer_inner #ali_service {
+	margin-left: 0
+}
+
+.sw-layout-1190 .hp_footer_inner #ali_service {
+	margin-left: 180px
+}
+
+.sw-layout-1390 .hp_footer_inner #ali_service {
+	margin-left: 180px
+}
+
+.sw-layout-990 .hp_footer_inner #footer-v1 {
+	margin-left: 0
+}
+
+.sw-layout-1190 .hp_footer_inner #footer-v1 {
+	margin-left: 180px
+}
+
+.sw-layout-1390 .hp_footer_inner #footer-v1 {
+	margin-left: 180px
+}
